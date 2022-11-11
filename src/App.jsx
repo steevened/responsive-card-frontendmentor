@@ -32,7 +32,7 @@ function App() {
             </h2>
             <h3 className="text-[13px] text-grayishblue  montse">$169.99</h3>
           </div>
-          <button className="rounded-lg mt-2 lg:m-5 flex gap-[12px] h-[50px] w-full justify-center items-center bg-darkcyan hover:bg-darkblue">
+          <button className="rounded-lg mt-2 lg:m-5 lg:mx-0 flex gap-[12px] h-[50px] w-full justify-center items-center bg-darkcyan hover:bg-darkblue">
             <Cart />
             <h4 className="text-white text-[15px] font-bold"> Add to Cart</h4>
           </button>
