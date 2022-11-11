@@ -14,15 +14,7 @@ function App() {
   return (
     <div className="App h-[667px] lg:h-screen lg:flex lg:items-center lg:justify-center bg-cream  px-4 py-7 bg-[hsl(30, 38%, 92%)]">
       <div className="overflow-hidden lg:flex rounded-[10px] lg:w-[600px] lg:h-[450px] lg:mt-[40px]">
-        <div className="basis-1/2">
-          {isCharged && (
-            <img
-              className="h-full w-full"
-              src="../images/product.jpg"
-              alt="product"
-            />
-          )}
-        </div>
+        <div className="basis-1/2 bg-[url(../images/product.jpg)] bg-cover bg-left"></div>
         <div className="px-6 py-5 bg-white lg:basis-1/2">
           <h3 className="text-[15px] tracking-[2.5px] montse text-grayishblue">
             PERFUME
