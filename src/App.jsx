@@ -14,11 +14,13 @@ function App() {
           />
         </div>
         <div className='px-6 py-5 bg-white lg:basis-1/2'>
-          <h3 className='text-[15px] tracking-[2.5px] montse'>PERFUME</h3>
+          <h3 className='text-[15px] tracking-[2.5px] montse text-grayishblue'>
+            PERFUME
+          </h3>
           <h1 className='text-[32px] font-bold leading-8 mt-2 fran'>
             Gabrielle Essence Eau De Parfum
           </h1>
-          <p className='text-sm leading-[23.5px] mt-4 montse'>
+          <p className='text-sm text-grayishblue leading-[23.5px] mt-4 montse'>
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
