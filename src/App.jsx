@@ -12,7 +12,7 @@ function App() {
   }, [])
 
   return (
-    <div className="App h-[667px] lg:h-screen bg-[url(./design/desktop-design.jpg)] bg-no-repeat lg:flex lg:items-center lg:justify-center bg-cream  px-4 py-7 bg-[hsl(30, 38%, 92%)]">
+    <div className="App h-[667px] lg:h-screen  bg-no-repeat lg:flex lg:items-center lg:justify-center bg-cream  px-4 py-7 bg-[hsl(30, 38%, 92%)]">
       <div className="overflow-hidden lg:flex rounded-[10px] lg:w-[600px] lg:h-[450px] lg:mt-[40px]">
         <div className="basis-1/2 bg-[url(../images/image-product-desktop.jpg)] bg-cover bg-left"></div>
         <div className="px-6 py-5 lg:px-8 lg:py-7 bg-white lg:basis-1/2 ">
