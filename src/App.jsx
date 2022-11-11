@@ -5,7 +5,7 @@ import './App.css'
 function App() {
   // bg-[url("../design/mobile-design.jpg")]
   return (
-    <div className='App h-[667px]  bg-[url("../design/desktop-design.jpg")] lg:h-screen lg:flex lg:items-center lg:justify-center  bg-cream bg-no-repeat  px-4 py-7 bg-[hsl(30, 38%, 92%)]'>
+    <div className='App h-[667px]   lg:h-screen lg:flex lg:items-center lg:justify-center  bg-cream bg-no-repeat  px-4 py-7 bg-[hsl(30, 38%, 92%)]'>
       <div className='overflow-hidden lg:flex rounded-[10px] lg:w-[600px] lg:h-[450px] lg:mt-[40px]'>
         <div className='basis-1/2'>
           <img
