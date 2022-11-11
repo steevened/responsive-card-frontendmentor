@@ -18,7 +18,7 @@ function App() {
           {isCharged && (
             <img
               className="h-full w-full"
-              src="../images/image-product-mobile.jpg"
+              src="./images/image-product-mobile.jpg"
               alt="product"
             />
           )}
@@ -39,9 +39,7 @@ function App() {
             <h3 className="text-[13px]  montse">$169.99</h3>
           </div>
           <button className="rounded-lg mt-2 flex gap-[12px] h-[50px] w-full justify-center items-center bg-darkcyan hover:bg-darkblue">
-            {isCharged && (
-              <img src="../images/icon-cart.svg" alt="icon cart " />
-            )}
+            {isCharged && <img src="./images/icon-cart.svg" alt="icon cart" />}
 
             <h4 className="text-white text-[15px] font-bold"> Add to Cart</h4>
           </button>
