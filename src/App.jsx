@@ -30,7 +30,9 @@ function App() {
             <h2 className="text-[34px] text-darkcyan font-bold tracking-[0.1px]  fran">
               $149.99{" "}
             </h2>
-            <h3 className="text-[13px] text-grayishblue  montse">$169.99</h3>
+            <h3 className="text-[13px] text-grayishblue  montse">
+              <strike>$169.99</strike>{" "}
+            </h3>
           </div>
           <button className="rounded-lg mt-2 lg:m-5 lg:mx-0 flex gap-[12px] h-[50px] w-full justify-center items-center bg-darkcyan hover:bg-darkblue">
             <Cart />
